@@ -17,9 +17,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Raycast.unity
     guid: 09c0be06429b9a148b0e0f1c8af54acf
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Tarea5.unity
     guid: b7597defd8ff2d345a68a69e7349c85a
+  - enabled: 1
+    path: Assets/Scenes/Parcial.unity
+    guid: 40e76cc1d72ed744ab82cc4d2f10af73
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 065f6fa063b87c44797331a438d7fd2e, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

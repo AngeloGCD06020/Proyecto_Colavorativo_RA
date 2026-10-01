@@ -563,11 +563,11 @@ GameObject:
   - component: {fileID: 961739750}
   m_Layer: 0
   m_Name: Main Camera
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &961739750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -848,8 +848,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RaycastController
   raycastManager: {fileID: 1046244671}
-  objectToPlace: {fileID: 424266105}
-  debugText: {fileID: 0}
+  planeManager: {fileID: 1046244670}
+  horizontalModelPrefab: {fileID: 0}
+  verticalModelPrefab: {fileID: 0}
+  horizontalEulerOffset: {x: 0, y: 0, z: 0}
+  verticalEulerOffset: {x: 0, y: 0, z: 0}
+  placedModelScale: 0.18
+  statusText: {fileID: 0}
 --- !u!1 &1572553204
 GameObject:
   m_ObjectHideFlags: 0
